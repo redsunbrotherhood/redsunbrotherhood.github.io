@@ -13,14 +13,12 @@
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
-  <meta name="author" content="Shrinath Rao">
-
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Shrinath's Blog">
 <meta property="og:title" content="Shrinath’s Blog">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:url" content="http://localhost:4000/_layouts/search.html">
 
 
 
@@ -34,7 +32,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/_layouts/search.html">
 
 
 
@@ -88,7 +86,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--default">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -128,114 +126,18 @@
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
 
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-    <div class="author__avatar">
-      
-
-      
-        <img src="/_img/avatar.jpg" alt="Shrinath Rao" itemprop="image">
-      
-    </div>
-  
-
-  <div class="author__content">
+  <div class="archive">
     
-      <h3 class="author__name" itemprop="name">Shrinath Rao</h3>
+      <h1 id="page-title" class="page__title"></h1>
     
+
     
-      <p class="author__bio" itemprop="description">
-        An engineer and game dev looking to share his thoughts on the tech and game industries!
-      </p>
-    
-  </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
 
-      
-        
-          
-            <li><a href="mailto:shrinathrao97@gmail.com" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> Email</a></li>
-          
-        
-          
-            <li><a href="https://twitter.com/Kshaya_Shri" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-          
-        
-      
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
+<div id="main" role="main">
   
-  </div>
-
 
   <div class="archive">
     
@@ -246,6 +148,9 @@
 
 
   </div>
+</div>
+<input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div></div>
 </div>
 
     </div>
