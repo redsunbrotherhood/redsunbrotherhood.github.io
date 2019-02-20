@@ -13,6 +13,7 @@ include:
  - _layouts
  - _data
  - _img
+ - _sass
 
 relative_permalinks: false
 # Site settings
@@ -35,7 +36,7 @@ logo: "/_img/RSBClear.png"
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.15.1"
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
