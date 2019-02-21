@@ -4,7 +4,9 @@ main:
     url: /blog
   - title: "About"
     url: /about
-  # - title: "Sample Collections"
+  - title:
+    icon: "fab fa-discord"
+    url: https://discord.gg/ewMUkK
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
