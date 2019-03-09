@@ -5,7 +5,6 @@ main:
   - title: "About"
     url: /about
   - title:
-    icon: "fab fa-discord"
     url: https://discord.gg/ewMUkK
   #   url: /collection-archive/
   # - title: "Sitemap"

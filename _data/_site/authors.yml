@@ -1,0 +1,23 @@
+Shrinath Rao:
+  name: "Shrinath Rao"
+  bio: "An engineer and game dev looking to share his thoughts on the tech and game industries!"
+  avatar: "_img/shriavatar.jpg"
+  links:
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:shrinathrao97@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/Kshaya_Shri"
+
+Thomas Jaeger:
+  name: "Thomas Jaeger"
+  bio: "An avid gamer and an aspiring journalist"
+  avatar: "_img/jaegeravatar.jpg"
+  links:
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:THJaeger28@outlook.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/TJaeger17"
